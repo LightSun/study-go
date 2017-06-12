@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// GET传参数,使用gin的Param解析格式: /test3/:name/:passwd
-	resp,_ = http.Get("http://0.0.0.0:8888/test3/name=TAO/passwd=123")
+	resp,_ := http.Get("http://0.0.0.0:8888/test3/name=TAO/passwd=123")
 	helpRead2(resp)
 
 	// POST传参数,使用gin的Param解析格式: /test3/:name/:passwd

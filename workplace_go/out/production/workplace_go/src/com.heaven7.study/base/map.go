@@ -56,7 +56,7 @@ func main() {
 	sm := make([]map[int]string, 5, 10)
 	//迭代操作---索引、值
 	//得到的v是拷贝，不会对sm造成影响
-	for i, v := range sm {
+	for i, v := range sm { //, i-v,是key-value
 		v = make(map[int]string, 2)
 		v[1] = "ok1"
 		v[2] = "ok2"

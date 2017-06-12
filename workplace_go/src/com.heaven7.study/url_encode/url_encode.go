@@ -27,6 +27,7 @@ func main() {
 	query.Add(" =", "\"__,__'__:__ ") // '='='%3D'   ' '='+'
 	fm.Println(query.Encode())
 	fm.Println(url.QueryEscape("\"__,__'__:__ ")) //编码任意字符串, ok
+	fm.Println(url.QueryEscape("&"))
 	//string util
 	fm.Println(strings.Replace("hhhh+", "+", "%20", -1));
 
