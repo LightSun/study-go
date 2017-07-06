@@ -68,7 +68,7 @@ func main() {
 
 }
 
-//添加 Signature and value
+//添加 Signature and value //TODO 签名算法有问题
 func strep5(signValue string, stringArr []string) []string {
 	//size := len(stringArr);
 	arr2 := append(stringArr, "Signature=" + aliyun.UrlEncode(signValue))
