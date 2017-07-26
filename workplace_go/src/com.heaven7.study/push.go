@@ -48,9 +48,9 @@ var (
 //签名机制: https://help.aliyun.com/document_detail/48047.html?spm=5176.doc48045.2.2.cb9cX0
 func main() {
 	//need replace when upload to github
-	accessKeySecret := "fUY2be6g7V7zJVWJ4L1ZlTQnVE4Zea";
-	Key_Value["AccessKeyId"]="LTAI2ujuwJjEucva"
-	Key_Value["AppKey"]="24011705"
+	accessKeySecret := "";
+	Key_Value["AccessKeyId"]=""
+	Key_Value["AppKey"]=""
 
 	Key_Value["Timestamp"]= aliyun.FormatTimeStamp(time.Now().UTC())
 	//Key_Value["Timestamp"]= aliyun.CurrentIso6801Time()
